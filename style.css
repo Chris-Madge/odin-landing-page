@@ -1,10 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
     height: 100%;
     width: 100%;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 400px;
+    width: auto;
+    border-radius: 75%;
 }
