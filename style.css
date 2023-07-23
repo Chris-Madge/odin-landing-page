@@ -10,13 +10,31 @@ body {
 
 .navbar {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-items: center flex-end;
     background-color: #1f2937;
+    padding: 12px 100px 12px 12px;
 }
 
 .header-links {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    color: #efe7eb;
+    list-style: none;
+}
+
+
+a {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    color: #efe7eb;
+    text-decoration: none;
+}
+
+.header-logo {
+    padding: 18px 18px 18px 100px;
 }
 
 .header-logo img {
@@ -25,25 +43,76 @@ body {
     width: auto;
 }
 
-/* .header {
+.hero-container {
     background-color: #1f2937;
     display: flex;
-    align-items: center;
-    padding: 12px;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-content: center; */
 }
 
-.header-links {
-    padding: 12px;
+.hero-text {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    color: white;
+    padding: 24px 24px 24px 100px;
+
 }
 
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+}
 
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+}
 
-.logo {
-    height: 96px;
-    width: auto;
-    justify-content: flex-start;
-    border-radius: 75%;
+.hero-button {
+    display: block;
+    width: 110px;
+}
 
-} */
+.hero-image-container {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 100px 24px 24px;
+    /* justify-content: flex-end; */
+    /* align-content: center;
+    align-items: center; */
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-content: center;
+    align-items: center; */
+}
+
+.product-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
