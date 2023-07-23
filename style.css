@@ -5,7 +5,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .navbar {
@@ -46,6 +46,7 @@ a {
 .hero-container {
     background-color: #1f2937;
     display: flex;
+    padding-bottom: 100px;
     /* justify-content: space-between; */
     /* flex-direction: column; */
     /* justify-content: center;
@@ -102,17 +103,82 @@ a {
     height: auto;
 }
 
-.product-container {
+.producut-container {
     display: flex;
-    flex-direction: row;
-    /* justify-content: center;
-    align-content: center;
-    align-items: center; */
+    justify-content: center;
+    padding: 48px auto 48px auto;
 }
 
-.product-title {
+.product-title-div {
     display: flex;
     justify-content: center;
     align-content: center;
+
+}
+
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.product-pic {
+    border: 6px solid #3882F6;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    padding: 24px;
+}
+
+.product-description {
+    text-align: center;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    align-content: center;
+}
+
+.quote-block {
+    display: flex;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+.quotee {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e5e7eb;
+    padding-right: 100px;
+}
+
+.Bailey {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
